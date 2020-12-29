@@ -2,27 +2,27 @@
 
 Work with different sensors such as acceleromete, magnetometer ect.
 
-#Devices
+# Devices
 
 LAUNCHXL-CC1352R1, BOOSTXL-SENSORS, RS, Logic analyzer Saleae.
 
-##T00
+## T00
 
 An app that turns on the LED, run a UART with data processing, and in a loopread one line from UART input and then write it using UART output.
 
-##T01
+## T01
 
 An app that gets temperature, pressure and humidity from a BME280 sensor and write them in a console every 10 seconds.
 
-##T02
+## T02
 
 Connection of a logic analyzer on the SCL and SDA lines and launch the Saleae Logic program.
 
-##T03
+## T03
 
 Work with an accelerometer, a magnetometer and a gyroscop. An app that reads data from all these sensors for getting a complete picture of the orientation of the device in space. Work of the BMI160 sensor must be based on the data from BMM150.
 
-##T04
+## T04
 
 Work with a photodetector. An app that will measure the luminous flux per unit area. An OPT3001 Ambient Light Sensor. The program write this data in a console every 10 seconds.
 
